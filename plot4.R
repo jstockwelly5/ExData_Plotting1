@@ -18,7 +18,7 @@ plot(sub$DateTime, as.numeric(as.character(sub$Global_active_power)), type="l", 
 plot(sub$DateTime, as.numeric(as.character(sub$Sub_metering_1)), type="l", col="black", xlab = "", ylab = "Energy sub metering")
 lines(sub$DateTime, as.numeric(as.character(sub$Sub_metering_2)), type="l", col="red")
 lines(sub$DateTime, as.numeric(as.character(sub$Sub_metering_3)), type="l", col="blue")
-legend("topright", lty = 1, bty = "n", col = c("black", "blue", "red"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), cex = 0.85)
+legend("topright", lty = 1, bty = "n", col = c("black", "blue", "red"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), cex = 0.9)
 
 plot(sub$DateTime, as.numeric(as.character(sub$Voltage)), type="l", ylab = "Voltage", xlab = "datetime")
 
